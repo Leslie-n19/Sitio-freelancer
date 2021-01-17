@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="css/style.css" as="style">    
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Leslie Nuñez <span>freelancer</span> </h1>
+        <h1 class="titulo">Leslie Nuñez <span>freelancer</span> </h1>
     </header>
 
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre mi</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contacto</a>
-        
-    </nav>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a> 
+        </nav>
+    </div>
+    
 
     <section>   <!---Cuando la primera etiqueta hijo es un heading, se usa section-->
-         <h2>Diseño y desarrollo Web Freelancer</h2>
+         <h2 class="titulo">Diseño y desarrollo Web Freelancer</h2>
          
          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="2" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
