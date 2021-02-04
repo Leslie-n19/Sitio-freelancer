@@ -10,13 +10,13 @@
 
 /*Globales*/
 
-html{
-    font-size: 62.5%;
-    box-sizing: border-box; /* Hack Box model*/
+html { /*Modifica todo el contenido*/
+    font-size: 62.5%; /*Se tiene de base este tamaño de fuente*/
+    box-sizing: border-box; /* Hack Box model. No va afectar el padding que se le agrega a un elemento, de esta manera no se altera el height*/
     scroll-snap-type: y mandatory;
 }
 
-*, *:before, *:after {
+*, *:before, *:after { /* "*" va a seleccionar todos los elementos de html y se les va  aplicar "box-sizing: border-box" */
     box-sizing: inherit;
   }
 
